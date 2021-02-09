@@ -1,4 +1,5 @@
-from PyQt5.QWidgets import QApplication, QWidget, QIcon
+from PyQt5.QWidgets import QApplication, QWidget
+from PyQt5.QtGui import QIcon
 import sys
 
 class MyWindow(QWidget):
