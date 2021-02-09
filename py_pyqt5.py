@@ -1,4 +1,4 @@
-from PyQt5.QWidgets import QApplication, QWidget
+from PyQt5.QWidgets import QApplication, QWidget, QIcon
 import sys
 
 class MyWindow(QWidget):
@@ -13,7 +13,7 @@ class MyWindow(QWidget):
     self.setWindowTitle("Tytuł okna")
     
     # Ustawienie ikony dla okna
-    self.setWindowIcon("myIcon.png")
+    self.setWindowIcon(QIcon("myIcon.png"))
     
     # Ustawienie wymiarów okna na stałe - bez możliwości resize okna
     self.setFixedHeight(400)
