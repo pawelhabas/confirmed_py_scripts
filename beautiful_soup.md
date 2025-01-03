@@ -1,4 +1,3 @@
-```markdown
 # Przykłady wykorzystania Beautiful Soup
 
 ## 1. Pobieranie i analizowanie tytułu strony
